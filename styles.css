@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #474747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    border: 2px white solid;
+    border-radius: 25px;
+}
+
+.score-box {
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: Cursed Timer ULil;
+    font-size: 90px;
+    color: red;
+}
+
+.score {
+    margin-top: 15px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.add-points {
+    display: flex;
+
+}
+
+.point-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    height: 47px;
+    width: 47px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 5px;
+    font-family: Cursed Timer ULil;
+    cursor: pointer;
+}
+
+.point-box:nth-child(1) {
+    margin-left: 0;
+}
+
+.point-box:hover {
+    background-color: rgba(255, 0, 0, 0.55);
+}
+
+.new-game {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-btn {
+    padding: 20px 35px;
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-btn:hover {
+    background-color: rgba(255, 0, 0, 0.55);
+}
+
+h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 0 0 20px 0;
+
+
+}
