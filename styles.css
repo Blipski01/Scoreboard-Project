@@ -76,9 +76,7 @@ body {
     margin-left: 0;
 }
 
-.point-box:hover {
-    background-color: rgba(255, 0, 0, 0.55);
-}
+
 
 .new-game {
     width: 100%;
@@ -97,9 +95,7 @@ body {
     cursor: pointer;
 }
 
-.new-btn:hover {
-    background-color: rgba(255, 0, 0, 0.55);
-}
+
 
 h3 {
     color: white;
@@ -108,4 +104,17 @@ h3 {
     margin: 0 0 20px 0;
 
 
+}
+
+/*hover effects for devices that can hover*/
+
+@media (hover: hover) {
+
+    .point-box:hover {
+        background-color: rgba(255, 0, 0, 0.55);
+    }
+
+    .new-btn:hover {
+        background-color: rgba(255, 0, 0, 0.55);
+    }
 }
